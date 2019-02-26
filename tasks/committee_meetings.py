@@ -23,7 +23,7 @@ from time import mktime
 # options:
 #
 #    --chamber: "house" or "senate" to limit the parse to a single chamber
-#    --load_by: Takes a range of House Event IDs. Give it the beginning and end IDs with a dash between, otherwise, it goes by the committee feeds.
+#    --load_by: Takes a range of House Event IDs. Give it the beginning (100031 or higher) and end IDs with a dash between. Otherwise, it goes by the committee feeds.
 #    --docs=False: Don't download (& convert to text) House committee documents
 
 
